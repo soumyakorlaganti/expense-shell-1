@@ -1,5 +1,6 @@
 #!/bin/bash/
 
+<<<<<<< HEAD
 set -e
 
 handle_error(){
@@ -10,6 +11,8 @@ handle_error(){
 
 trap 'handle_error ${LINENO} "$BASH_COMMAND"' ERR
 
+=======
+>>>>>>> 73f83b7ce868af57976c393520430a23972d317a
 USERID=$(id -u)
 TIMESTAMP=$(date +%F-%H-%M-%S)
 SCRIPT_NAME=$(echo $0 | cut -d "." -f1)
