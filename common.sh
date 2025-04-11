@@ -1,6 +1,5 @@
 #!/bin/bash/
 
-<<<<<<< HEAD
 set -e
 
 handle_error(){
